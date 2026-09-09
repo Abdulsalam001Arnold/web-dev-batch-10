@@ -1,0 +1,86 @@
+body{
+    /* background-image: url(https://c4.wallpaperflare.com/wallpaper/403/855/787/sword-blood-fantasy-armor-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+
+    background: #40ffd9;
+    background: linear-gradient(319deg, rgba(64, 255, 217, 1) 0%, rgba(199, 195, 87, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #87ff8d;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-shadow: 76px 72px 25px rgba(0,0,0,0.6);
+}
+
+#heading-1 {
+    color: blue;
+}
+
+#heading-2 {
+    color: green;
+}
+
+.text {
+    color: brown;
+    font-size: 1.2rem;
+    text-align: right;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    color: aqua;
+    font-size: 40px;
+}
+
+#box {
+    width: 20rem;
+    height: 20rem;
+    background: rgba(255, 0, 0, 0.4);
+    /* border-radius: 50%; */
+    border: 5px solid black;
+    padding-left: 10px;
+    box-shadow: 78px 96px 138px -47px rgba(0,0,0,0.75);
+-webkit-box-shadow: 78px 96px 138px -47px rgba(0,0,0,0.75);
+-moz-box-shadow: 78px 96px 138px -47px rgba(0,0,0,0.75);
+position: relative;
+}
+
+#box-2{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    top: 5rem;
+    left: 6rem;
+    z-index: 1;
+}
+
+#box-3{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: blue;
+    top: 8rem;
+    left: 8rem;
+    z-index: 2;
+    transition: all 0.7s ease-in-out;
+}
+
+#box-3:hover {
+    background-color: red;
+
+}
